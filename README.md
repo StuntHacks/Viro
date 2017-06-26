@@ -39,6 +39,9 @@ If you want to add a player to a team, use `/teams add <teamName> <playerName>`.
 ## Removing members from teams
 Similar, you can use `/teams remove <teamName> <playerName>` to remove a player from a team.
 
+## List all teams
+To view a list of all teams, use `/teams list`. To show the members of a team, use `/team list <teamName>`.
+
 **Aliases:** `/vt, /vteams`
 
 # Changing the settings
@@ -87,3 +90,13 @@ To view basic informations about the plugin, use `/info`.
 
 # Known issues
  - When logging in while being banned the client sometimes throws a `java.io.IOException` instead of the message how long the user is still being banned.
+
+# Permissions
+```
+viro.start          # User can start a round
+viro.stop           # User can stop the current round
+viro.config         # User can use the /configuration command
+viro.operators      # User can add/remove viro operators
+viro.spectators     # User can add/remove spectators
+viro.teams          # User can manage teams
+```
