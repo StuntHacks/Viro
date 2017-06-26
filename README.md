@@ -91,6 +91,7 @@ To view basic informations about the plugin, use `/info`.
 - [ ] Add autocomplete for everything
 - [ ] Add feature to automatically shrink the worldborder after a given time
 - [ ] Add meassurment units to config outputs
+- [ ] Teleport all mid-air players to the ground on round start
 - [ ] What ever comes to my mind
 
 # Known issues
