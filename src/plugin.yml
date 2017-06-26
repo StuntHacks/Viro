@@ -1,0 +1,43 @@
+name: Viro
+version: 0.1
+description: A very simple, slightly modified version of the PvP gamemode "Varo"
+author: StuntHacks
+main: com.stunthacks.viro.Viro
+
+commands:
+     info:
+          description: "Basic information about the plugin"
+          usage: "§CUsage: /info"
+     start:
+          description: "Starts a round"
+          usage: "§CUsage: /start"
+          permission: viro.start
+          aliases: [vs, vstart]
+     vstop:
+          description: "Stops the current round"
+          usage: "§CUsage: /vstop"
+          permission: viro.stop
+     configuration:
+          description: "Configures the Viro round. Type '/vconfig settings' to list all possible settings."
+          usage: "§CUsage: /configuration <setting|settings|init> [value]"
+          permission: viro.config
+          aliases: [vconfig, vconf, vc]
+     operators:
+          description: "Adds/removes a viro op"
+          usage: "§CUsage: /operators <add|remove|list> [name]"
+          permission: viro.operators
+          aliases: [vops]
+     spectators:
+          description: "Adds/removes a viro spectator"
+          usage: "§CUsage: /spectators <add|remove|list> [name]"
+          permission: viro.spectators
+          aliases: [vspecs, vsp]
+     teams:
+          description: "Creates/Removes teams and handles their members."
+          usage: "§CUsage: /teams <create|delete|add|remove|list> <teamName> [playerName|color]"
+          permission: viro.teams
+          aliases: [vteams, vt]
+     lastwinner:
+          description: "Shows the winner of the last round."
+          usage: "§CUsage: /lastwinner"
+          aliases: [vlw, vl, vwinner, vlast]
