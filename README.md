@@ -88,6 +88,9 @@ To view basic informations about the plugin, use `/info`.
 - [ ] Clean up the code
 - [ ] Add possibility to change the maximum time between two logins of one team
 - [ ] Add the possibility to re-use colors
+- [ ] Add autocomplete for everything
+- [ ] Add feature to automatically shrink the worldborder after a given time
+- [ ] Add meassurment units to config outputs
 - [ ] What ever comes to my mind
 
 # Known issues
