@@ -12,6 +12,8 @@ To start the game, simply type `/start`. To stop it, type `/stop`. In theory, yo
 **Aliases for /start:** `/vs, /vstart`
 
 # Teams
+**Team chat:** To write a message that only the members of your team can see, set an '@' right at the beginning of your message.
+
 ## Creating teams
 You can use `/teams create <name> [color]` to create a team. `<name>` can be any value that doesn't contain spaces and has a max length of 32 characters. You can use all of unicode in it. `[color]` can be used to set the color of the team. If no color is specified, the plugin will auto-choose one that isn't already occupied. The following colors can be set:
 ```
